@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B39BC09E1EC2B429004DA83F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B39BC09D1EC2B429004DA83F /* main.m */; };
+		B39BC0A11EC2B429004DA83F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B39BC0A01EC2B429004DA83F /* AppDelegate.m */; };
+		B39BC0A41EC2B429004DA83F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B39BC0A31EC2B429004DA83F /* ViewController.m */; };
+		B39BC0A71EC2B429004DA83F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B39BC0A51EC2B429004DA83F /* Main.storyboard */; };
+		B39BC0A91EC2B429004DA83F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B39BC0A81EC2B429004DA83F /* Assets.xcassets */; };
+		B39BC0AC1EC2B429004DA83F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B39BC0AA1EC2B429004DA83F /* LaunchScreen.storyboard */; };
+		B39BC0D41EC3056F004DA83F /* LEOVideoTrimmerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B39BC0D31EC3056F004DA83F /* LEOVideoTrimmerView.m */; };
+		B3AAB02C1EE7A03C005FA94E /* spider-man.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B3AAB02B1EE7A03C005FA94E /* spider-man.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B39BC0991EC2B429004DA83F /* LEOEditVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEOEditVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B39BC09D1EC2B429004DA83F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B39BC09F1EC2B429004DA83F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B39BC0A01EC2B429004DA83F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B39BC0A21EC2B429004DA83F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B39BC0A31EC2B429004DA83F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B39BC0A61EC2B429004DA83F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B39BC0A81EC2B429004DA83F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B39BC0AB1EC2B429004DA83F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B39BC0AD1EC2B429004DA83F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B39BC0D21EC3056F004DA83F /* LEOVideoTrimmerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEOVideoTrimmerView.h; sourceTree = "<group>"; };
+		B39BC0D31EC3056F004DA83F /* LEOVideoTrimmerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEOVideoTrimmerView.m; sourceTree = "<group>"; };
+		B3AAB02B1EE7A03C005FA94E /* spider-man.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "spider-man.mp4"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B39BC0961EC2B429004DA83F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B39BC0901EC2B429004DA83F = {
+			isa = PBXGroup;
+			children = (
+				B39BC09B1EC2B429004DA83F /* LEOEditVideo */,
+				B39BC09A1EC2B429004DA83F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B39BC09A1EC2B429004DA83F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B39BC0991EC2B429004DA83F /* LEOEditVideo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B39BC09B1EC2B429004DA83F /* LEOEditVideo */ = {
+			isa = PBXGroup;
+			children = (
+				B39BC09F1EC2B429004DA83F /* AppDelegate.h */,
+				B39BC0A01EC2B429004DA83F /* AppDelegate.m */,
+				B39BC0A21EC2B429004DA83F /* ViewController.h */,
+				B39BC0A31EC2B429004DA83F /* ViewController.m */,
+				B39BC0D21EC3056F004DA83F /* LEOVideoTrimmerView.h */,
+				B39BC0D31EC3056F004DA83F /* LEOVideoTrimmerView.m */,
+				B3AAB02B1EE7A03C005FA94E /* spider-man.mp4 */,
+				B39BC0A51EC2B429004DA83F /* Main.storyboard */,
+				B39BC0A81EC2B429004DA83F /* Assets.xcassets */,
+				B39BC0AA1EC2B429004DA83F /* LaunchScreen.storyboard */,
+				B39BC0AD1EC2B429004DA83F /* Info.plist */,
+				B39BC09C1EC2B429004DA83F /* Supporting Files */,
+			);
+			path = LEOEditVideo;
+			sourceTree = "<group>";
+		};
+		B39BC09C1EC2B429004DA83F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B39BC09D1EC2B429004DA83F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B39BC0981EC2B429004DA83F /* LEOEditVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B39BC0B01EC2B429004DA83F /* Build configuration list for PBXNativeTarget "LEOEditVideo" */;
+			buildPhases = (
+				B39BC0951EC2B429004DA83F /* Sources */,
+				B39BC0961EC2B429004DA83F /* Frameworks */,
+				B39BC0971EC2B429004DA83F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LEOEditVideo;
+			productName = LEOEditVideo;
+			productReference = B39BC0991EC2B429004DA83F /* LEOEditVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B39BC0911EC2B429004DA83F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = LEO;
+				TargetAttributes = {
+					B39BC0981EC2B429004DA83F = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 9BV5M3S6G2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = B39BC0941EC2B429004DA83F /* Build configuration list for PBXProject "LEOEditVideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B39BC0901EC2B429004DA83F;
+			productRefGroup = B39BC09A1EC2B429004DA83F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B39BC0981EC2B429004DA83F /* LEOEditVideo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B39BC0971EC2B429004DA83F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B39BC0AC1EC2B429004DA83F /* LaunchScreen.storyboard in Resources */,
+				B39BC0A91EC2B429004DA83F /* Assets.xcassets in Resources */,
+				B3AAB02C1EE7A03C005FA94E /* spider-man.mp4 in Resources */,
+				B39BC0A71EC2B429004DA83F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B39BC0951EC2B429004DA83F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B39BC0A41EC2B429004DA83F /* ViewController.m in Sources */,
+				B39BC0A11EC2B429004DA83F /* AppDelegate.m in Sources */,
+				B39BC0D41EC3056F004DA83F /* LEOVideoTrimmerView.m in Sources */,
+				B39BC09E1EC2B429004DA83F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B39BC0A51EC2B429004DA83F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B39BC0A61EC2B429004DA83F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B39BC0AA1EC2B429004DA83F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B39BC0AB1EC2B429004DA83F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B39BC0AE1EC2B429004DA83F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B39BC0AF1EC2B429004DA83F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B39BC0B11EC2B429004DA83F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9BV5M3S6G2;
+				INFOPLIST_FILE = LEOEditVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leo.LEOEditVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9bd4c2ed-527d-4e09-8ef1-1f06d2326904";
+				PROVISIONING_PROFILE_SPECIFIER = gaimei;
+			};
+			name = Debug;
+		};
+		B39BC0B21EC2B429004DA83F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LEOEditVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leo.LEOEditVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B39BC0941EC2B429004DA83F /* Build configuration list for PBXProject "LEOEditVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B39BC0AE1EC2B429004DA83F /* Debug */,
+				B39BC0AF1EC2B429004DA83F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B39BC0B01EC2B429004DA83F /* Build configuration list for PBXNativeTarget "LEOEditVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B39BC0B11EC2B429004DA83F /* Debug */,
+				B39BC0B21EC2B429004DA83F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B39BC0911EC2B429004DA83F /* Project object */;
+}
